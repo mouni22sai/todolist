@@ -9,5 +9,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname,'public')));
-app.use(router);
+app.get('/',function(req,res){
+  res.sendFile(path.join(__dirname,'../public/html/index.html'));
+});
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
