@@ -1,0 +1,11 @@
+{
+  "name": "toDoList",
+  "version": "0.0.1",
+  "description": "A to do List for everyone",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "pg": "^7.4.1"
+  }
+}
